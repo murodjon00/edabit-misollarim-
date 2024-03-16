@@ -205,7 +205,8 @@ function checkEquality(a, b) {
 }
 ```
 [30-misol Profitable Gamble](https://edabit.com/challenge/ghbHrRnRiDz9fvQNF)
-``function profitableGamble(prob, prize, pay) {
+```gitjs
+function profitableGamble(prob, prize, pay) {
 	if ( prob && prize > pay){
 		return true
 	}		
