@@ -205,7 +205,7 @@ function checkEquality(a, b) {
 }
 ```
 [30-misol Profitable Gamble](https://edabit.com/challenge/ghbHrRnRiDz9fvQNF)
-```gitjs
+```js
 function profitableGamble(prob, prize, pay) {
 	if ( prob && prize > pay){
 		return true
@@ -215,4 +215,143 @@ function profitableGamble(prob, prize, pay) {
 	}
 }
 ```
+[31-misol Boolean to String Conversion](https://edabit.com/challenge/KSTkFSnaYBJdo6PHx)
+```js
+function boolToString(flag) {
+	if(flag == true){
+		return "true"
+	}
+	else{
+		return "false"
+	}
+}
+```
+[32-misol Using Arrow Functions](https://edabit.com/challenge/QkvDge63crdGnMfvM)
+```js
+arrowFunc = (number) => {
+    return number
+```
+[33-misol Frames Per Second](https://edabit.com/challenge/d9suvbchE2bnHNQuK)
+```js
+function frames(minutes, fps) {
+	return minutes * fps * 60
+}
+```
+[34-misol Miserable Parody of a Calculator](https://edabit.com/challenge/fh9i7k936rvfjnCYR)
+```js
 
+function calculator(str) {
+    return eval(str)
+}
+```
+[35-misol Buggy Code (Part 4)](https://edabit.com/challenge/4SmqXvQtL6qRgzfha)
+```js
+function greeting(name) {
+  if(name == "Mubashir") {
+    return "Hello, my Love!";
+  }
+	return "Hello, " + name + "!";
+}
+```
+[36-misol Two Makes Ten](https://edabit.com/challenge/5erCDJ8eJDrXkmwTK)
+```js
+function makesTen(a,b) {
+	let sum = a + b
+	if (a == 10 || b == 10 || sum == 10){
+		return true
+	}else{
+		return false
+	}
+}
+```
+[37-misol Let's Fuel Up!](https://edabit.com/challenge/YMWDcSuYwYvve3HZj)
+```js
+function calculateFuel(n) {
+	if ( n < 10){
+		return 100
+	}
+	else{
+		return n * 10
+	}
+}
+```
+[38-misol Buggy Code (Part 2)](https://edabit.com/challenge/uE9AJ4sSrrpSASMpu)
+```js
+function maxNum(n1,n2) {
+	if (n1>n2) {
+	  return n1
+	}
+  else  {
+	return n2
+  }
+}
+```
+[39-misol Pair Management](https://edabit.com/challenge/BFnsRqe8PFvEwcRNt)
+```js
+function makePair(num1, num2) {
+	return [ num1, num2 ]
+}
+```
+[40-misol Compare Strings by Count of Characters](https://edabit.com/challenge/yHGowWucg3k2kJdZ4)
+```js
+function comp(str1, str2) {
+	return str1.length === str2.length;
+}
+```
+[41-misol Is the String Empty?](https://edabit.com/challenge/EzbfiquDoAc2Zc9FL)
+```js
+function isEmpty(s) {
+	if(s === "" ){
+		return true
+	}
+	else{
+		return false
+	}
+}	
+```
+[42-misol Check if an Integer is Divisible By Five](https://edabit.com/challenge/iBQYbSHZGhpktLRdn)
+```js
+function divisibleByFive(n) {
+	if(n % 5){
+		return false
+	}
+	else{
+		return true
+	}
+}
+```
+[43-misol Multiple of 100](https://edabit.com/challenge/qMr6wYGr6NaXAPQGF)
+```js
+
+```
+
+[44-misol Recursion: Length of a String](https://edabit.com/challenge/4MSbtYFBiRtxHEkY8)
+```js
+
+```
+[45-misol Divides Evenly](https://edabit.com/challenge/JfB9mWmbwYHbupxCB)
+```js
+
+```
+[46-misol Return a String as an Integer](https://edabit.com/challenge/rGsgEswWuW339yNxY)
+```js
+
+```
+[47-misol Area of a Rectangle](https://edabit.com/challenge/g6b9HqkXqWu6GpfTo)
+
+```js
+
+```
+[48-misol Minimal I: If Boolean Then Boolean](https://edabit.com/challenge/nEdLGbAZQ5LaiumP6)
+
+```js
+
+```
+[49-misol Concatenate First and Last Name into One String](https://edabit.com/challenge/RQwdZmtrW8mCnuCMN)
+```js
+
+```
+[50-misol Buggy Code](https://edabit.com/challenge/r2MbSxquAGPnDkjQx )
+```js
+
+```
